@@ -1,8 +1,8 @@
-require File.expand_path('lib/fun_translations/version', __dir__)
+require File.expand_path('version', __dir__)
 
 Gem::Specification.new do |spec|
-  spec.name                  = 'fun_translations'
-  spec.version               = FunTranslations::VERSION
+  spec.name                  = 'fun_translate'
+  spec.version               = FunTranslate::VERSION
   spec.authors               = ['Antonina Sych']
   spec.email                 = ['antoninasych@gmail.com']
   spec.summary               = ''
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir['README.md', 'LICENSE',
                    'CHANGELOG.md', 'lib/**/*.rb',
-                   'fun_translations.gemspec', '.github/*.md',
+                   'fun_translate.gemspec', '.github/*.md',
                    'Gemfile', 'Rakefile']
   spec.extra_rdoc_files = ['README.md']
   spec.require_paths    = ['lib']
